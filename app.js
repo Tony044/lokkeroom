@@ -10,5 +10,5 @@ import userRoute from './Routes/User';
 app.use(userRoute, '/user');
 
 app.listen(port, () => {
-    console.log(`Server started: http://localhost:${PORT}/`);
+    console.log(`Server started: http://localhost:${port}/`);
 })
