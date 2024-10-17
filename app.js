@@ -1,4 +1,5 @@
 import express from 'express';
+import pool from '/Model/connectDB.js'
 // import chatSystem from './Routes/ChatSystem.router.js';
 const app = express();
 const port = 3000;
