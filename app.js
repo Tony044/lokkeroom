@@ -1,8 +1,12 @@
-const express = require('express');
+import express from 'express';
+// import chatSystem from './Routes/ChatSystem.router.js';
 const app = express();
 const port = 3000;
 
-const userRoute = require('./Routes/User');
+app.use(express.json());
+// app.use('/chatSystem', chatSystem);
+
+import userRoute from './Routes/User';
 app.use(userRoute, '/user');
 
 app.listen(port, () => {
