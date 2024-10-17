@@ -4,7 +4,7 @@ const pool=mariadb.createPool({
     host : 'localhost',
     user: 'root',
     database: 'ChatSystem',
-    password: ' ',
+    password: '250303',
     connectionLimit: 5
 });
 
